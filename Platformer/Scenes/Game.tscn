@@ -8,5 +8,37 @@
 [node name="Player" parent="." instance=ExtResource( 2 )]
 position = Vector2( 447, 237 )
 
-[node name="StaticBody2D" parent="." instance=ExtResource( 1 )]
-position = Vector2( 449, 465 )
+[node name="Node" type="Node" parent="."]
+
+[node name="Wall1" parent="Node" instance=ExtResource( 1 )]
+position = Vector2( 480, 352 )
+
+[node name="Wall2" parent="Node" instance=ExtResource( 1 )]
+position = Vector2( 672, 352 )
+
+[node name="Wall3" parent="Node" instance=ExtResource( 1 )]
+position = Vector2( 544, 352 )
+
+[node name="Wall4" parent="Node" instance=ExtResource( 1 )]
+position = Vector2( 416, 352 )
+
+[node name="Wall5" parent="Node" instance=ExtResource( 1 )]
+position = Vector2( 352, 352 )
+
+[node name="Wall6" parent="Node" instance=ExtResource( 1 )]
+position = Vector2( 608, 352 )
+
+[node name="Wall7" parent="Node" instance=ExtResource( 1 )]
+position = Vector2( 288, 352 )
+
+[node name="Wall8" parent="Node" instance=ExtResource( 1 )]
+position = Vector2( 736, 352 )
+
+[node name="Wall9" parent="Node" instance=ExtResource( 1 )]
+position = Vector2( 736, 352 )
+
+[node name="Wall10" parent="Node" instance=ExtResource( 1 )]
+position = Vector2( 224, 352 )
+
+[node name="Wall11" parent="Node" instance=ExtResource( 1 )]
+position = Vector2( 800, 352 )
